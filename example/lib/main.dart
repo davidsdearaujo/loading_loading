@@ -16,10 +16,8 @@ class MyApp extends StatelessWidget {
       home: LoadingWidget(
         child: HomePage(),
         loading: Material(
-          color: Colors.transparent,
-          child: Container(
-            alignment: Alignment.center,
-            color: Colors.black38,
+          color: Colors.black38,
+          child: Center(
             child: Container(
               width: 100,
               height: 100,

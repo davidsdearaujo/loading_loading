@@ -3,7 +3,7 @@
 ```dart
 import 'package:flutter/material.dart';
 import 'package:flutter/widgets.dart';
-import 'package:loading/loading_widget.dart';
+import 'package:loading_loading/loading_widget.dart';
 
 void main() => runApp(MyApp());
 
@@ -18,11 +18,9 @@ class MyApp extends StatelessWidget {
       ),
       home: LoadingWidget(
         child: HomePage(),
-        loadingWidget: Material(
-          color: Colors.transparent,
-          child: Container(
-            alignment: Alignment.center,
-            color: Colors.black38,
+        loading: Material(
+          color: Colors.black38,
+          child: Center(
             child: Container(
               width: 100,
               height: 100,
