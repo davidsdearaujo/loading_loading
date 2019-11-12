@@ -2,7 +2,7 @@
 
 Simple loading to your project.
 
-![](screenshots/Screenshot_1.png)
+![](https://github.com/davidsdearaujo/loading_loading/raw/master/screenshots/Screenshot_1.png)
 
 ## pubspec.yaml
 ```yaml
