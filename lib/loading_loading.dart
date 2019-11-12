@@ -18,7 +18,7 @@ class LoadingWidget extends StatefulWidget {
   final Widget loadingWidget;
   final Widget child;
 
-  LoadingWidget({Key key, Widget loading, @required this.child})
+  LoadingWidget({Key key, Widget loading, bool isLoading, @required this.child})
       : this.loadingWidget = loading ??
             Container(
               alignment: Alignment.center,
@@ -34,7 +34,9 @@ class LoadingWidget extends StatefulWidget {
                 child: CircularProgressIndicator(),
               ),
             ),
-        super(key: key);
+        super(key: key) {
+    _isLoading = isLoading ?? _isLoading;
+  }
 
   @override
   _LoadingWidgetState createState() => _LoadingWidgetState();
