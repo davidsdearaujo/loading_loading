@@ -2,6 +2,8 @@
 
 Simple loading to your project.
 
+![](screenshots/Snapshot_1.png)
+
 ## pubspec.yaml
 ```yaml
 loading_loading: <last_version>
