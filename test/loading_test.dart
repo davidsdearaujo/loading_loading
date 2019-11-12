@@ -1,6 +1,6 @@
 import 'package:flutter/widgets.dart';
 import 'package:flutter_test/flutter_test.dart';
-import 'package:loading_loading/loading_widget.dart';
+import 'package:loading_loading/loading_loading.dart';
 
 void main() {
   LoadingWidget loadingWidget;

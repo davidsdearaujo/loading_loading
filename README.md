@@ -9,6 +9,11 @@ Simple loading to your project.
 loading_loading: <last_version>
 ```
 
+## Import
+```dart
+import 'package:loading_loading/loading_loading.dart';
+```
+
 ## main.dart
 In main.dart file, add in `home` parameter the widget `LoadingWidget`, according example: 
 ```dart

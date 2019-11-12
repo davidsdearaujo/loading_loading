@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/widgets.dart';
-import 'package:loading_loading/loading_widget.dart';
+import 'package:loading_loading/loading_loading.dart';
 
 void main() => runApp(MyApp());
 
