@@ -2,7 +2,7 @@
 
 Simple loading to your project.
 
-![](screenshots/Snapshot_1.png)
+![](screenshots/Screenshot_1.png)
 
 ## pubspec.yaml
 ```yaml
